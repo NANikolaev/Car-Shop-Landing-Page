@@ -1,0 +1,14 @@
+.overview-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: var(--black);
+    row-gap: 5px;
+}
+.overview-text{
+    text-align: center;
+}
+.overview-card i{
+    font-size: 64px;
+}
