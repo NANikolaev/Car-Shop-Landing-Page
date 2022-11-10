@@ -6,6 +6,9 @@
     color: var(--black);
     row-gap: 5px;
 }
+.overview-title{
+    text-align: center;
+}
 .overview-text{
     text-align: center;
 }

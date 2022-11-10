@@ -1,0 +1,21 @@
+.addition{
+    display: flex;
+    flex-direction: column;
+    
+}
+.addition-img{
+    height: 250px;
+    object-fit: cover;
+}
+.addition-dsc{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 5%;
+    background: linear-gradient(0deg,var(--orangeFFa),var(--orange-sec),var(--white));
+}
+.addition-title,.addition-text{
+    text-align: center;
+}
