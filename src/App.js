@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero";
 import Overview from "./components/Overview/Overview";
 import Additions from "./components/Additions/Additions";
+import Services from "./components/Sevices/Services";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
    <Hero/>
    <Overview/>
    <Additions/>
+   <Services/>
    </>
   );
 }

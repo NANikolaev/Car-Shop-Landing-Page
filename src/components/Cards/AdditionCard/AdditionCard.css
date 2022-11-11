@@ -4,17 +4,16 @@
     
 }
 .addition-img{
-    height: 250px;
+    height: 200px;
     object-fit: cover;
 }
 .addition-dsc{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
     padding: 5%;
-    background: linear-gradient(0deg,var(--orangeFFa),var(--orange-sec),var(--white));
+    background: linear-gradient(0deg,var(--orangeFFa),var(--orange-sec),#fff);
 }
 .addition-title,.addition-text{
     text-align: center;

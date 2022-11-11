@@ -5,6 +5,7 @@
   --orange-sec:#ffcc98;
   --blue41c:#41c6f1;
   --white:#ffffffad;
+  --black:#443f3f;
 }
 
 *,
@@ -47,6 +48,7 @@ h1{
   font-size: 38px;
 }
 p{
+  font-weight: 500;
   font-size: 12px;
 }
 ol,

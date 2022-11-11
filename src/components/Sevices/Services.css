@@ -1,0 +1,37 @@
+.service{
+    background: var(--black);
+    padding: 5%;
+    text-align: center;
+}
+.service-title,.service-sub-title{
+    color: var(--orange-sec);
+    margin-bottom: 1%;
+}
+
+.services{
+    display: flex;
+}
+.services-list{
+    width: 100%;
+}
+.services-options{
+    display: grid;  
+    grid-template-rows: repeat(9,1fr);
+    grid-template-columns: repeat(2,auto);
+    row-gap: 5px;
+}
+.services-option{
+    display: flex;
+    align-items: center;
+    color: var(--orangeFFa);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    gap: 5px;
+}
+.services-option .circle{
+    font-size: 6px;
+}
+.display{
+    display: none;
+}
