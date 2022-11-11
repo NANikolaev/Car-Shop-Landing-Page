@@ -23,14 +23,15 @@
 .services-option{
     display: flex;
     align-items: center;
-    color: var(--orangeFFa);
+    color: var(--white);
     font-family: Poppins;
     font-size: 10px;
     font-weight: 600;
     gap: 5px;
 }
-.services-option .circle{
+.services-option .check{
     font-size: 6px;
+    color: var(--green00b);
 }
 .display{
     display: none;
