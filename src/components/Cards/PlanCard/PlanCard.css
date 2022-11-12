@@ -6,6 +6,7 @@
     align-items: center;
     row-gap: 5px;
     border-radius: 4px;
+    box-shadow: 2px 3px 21px 7px rgb(255 246 246 / 32%);
 }
 .plan-title{
     font-size: 1.5rem;
@@ -20,7 +21,6 @@
 }
 .benefits{
     text-align: center;
-   
 }
 .benefits .benefit{
     font-family: Poppins;
