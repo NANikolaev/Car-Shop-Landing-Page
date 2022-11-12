@@ -3,7 +3,7 @@ import AdditionCard from "../Cards/AdditionCard/AdditionCard";
 
 let additions=[
     {
-        title:"Insurance Plans",
+        title:"Car Insurance",
         image:"istockphoto-1299259284-170667a.jpg"
     },
     {

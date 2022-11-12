@@ -28,7 +28,7 @@
 .navbar-nav{
     display: none;
 }
-.btn-contact{
+.btn-apply{
     align-self: flex-start;
     color:var(--white);
     font-size: 12px;

@@ -33,6 +33,6 @@
     font-size: 6px;
     color: var(--green00b);
 }
-.display{
-    display: none;
+.services-mechanic{
+    object-fit: cover;
 }

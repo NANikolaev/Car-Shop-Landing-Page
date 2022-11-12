@@ -4,7 +4,7 @@ import "./AdditionCard.css"
 let AdditionCard = ({ image, title }) => {
     return (
         <article className="addition">
-            <img className="addition-img" src={`/images/${image}`} />
+            <img className="addition-img" src={`/images/${image}`} />     
             <div className="addition-dsc">
                 <h2 className="addition-title"> {title}</h2>
                 <p className="addition-text">
@@ -13,7 +13,7 @@ let AdditionCard = ({ image, title }) => {
                     sit amet convallis elit urna blandit sapien. Sed pretium id nunc nec tristique.
                     Quisque viverra est nisl, quis sagittis nulla lobortis at
                 </p>
-            </div>
+            </div>           
         </article>
     )
 }

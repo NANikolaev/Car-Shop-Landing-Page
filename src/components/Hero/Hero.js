@@ -15,7 +15,7 @@ let Hero = () => {
             <div className="title">
                 <h1>Best Way To Take Care Of Your Car </h1>
                 <p className="title-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper luctus lorem, vel lobortis tellus vestibulum at. Quisque quis cursus diam, sit amet mollis quam.</p>
-                <button className="btn-contact">CONTACT US</button>
+                <button className="btn-apply">APPLY NOW</button>
             </div>
         </section>
     )

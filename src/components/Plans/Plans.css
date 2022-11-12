@@ -1,0 +1,20 @@
+.plans{
+    position: relative;
+    padding: 5%;
+}
+.plans-title{
+    margin-bottom: 5%;
+}
+.plans-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.plans-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}

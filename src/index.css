@@ -63,3 +63,6 @@ a {
 button{
   cursor: pointer;
 }
+.display{
+  display: none;
+}
