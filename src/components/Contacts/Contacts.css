@@ -1,0 +1,32 @@
+.contacts{
+    display: flex;
+    padding: 5%;
+    background: linear-gradient(0deg,var(--orangeFFa),var(--orange-sec),#fff);
+}
+.locations,.media{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+
+.location-title,.media-title{
+    font-weight: 500;   
+}
+.location-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.media-list{
+    display: flex;
+    gap: 10px;
+}
