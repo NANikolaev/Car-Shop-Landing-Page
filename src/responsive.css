@@ -1,0 +1,165 @@
+@media screen and (min-width: 540px) {
+    .logo {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .service-sub-title,
+    .overview-title {
+        font-size: 1.2rem;
+    }
+
+    p,
+    .btn-apply,
+    .services-option {
+        font-size: 14px;
+    }
+
+    .services-option .check {
+        font-size: 10px;
+    }
+
+    .plans-container{
+        width: 80%;
+    }
+    .plans-title{
+        font-size: 1.7rem;
+    }
+    .contacts{
+        padding: 3%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .addition {
+        flex-direction: row;
+    }
+
+    .addition:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .addition-img,
+    .addition-dsc {
+        width: 50%;
+    }
+
+    .addition-img {
+        height: auto;
+    }
+
+    .plans-title {
+        font-size: 2rem;
+    }
+
+    .plans-container{
+        width: 75%;
+    }
+
+}
+
+@media screen and (min-width:850px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .addition-title,
+    .service-title,
+    .plan-title {
+        font-size: 1.7rem;
+    }
+    .plans-title{
+        font-size: 2.2rem;
+    }
+    .plans-container{
+        width: 70%;
+    }
+    .plan-price{
+        font-size: 1.3rem;
+    }
+
+    h1,
+    .title-subtext {
+        width: 85%;
+    }
+    .contact-item{
+        font-size: 14px;
+    }
+    .media-item{
+        font-size: 18px;
+    }
+    p,
+    .btn-apply,
+    .services-option {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:1050px) {
+    .title-subtext{
+        width: 70%;
+    }
+  .overview{
+    grid-template-columns: repeat(4,1fr);
+  }
+  .addition-dsc,.service{
+    padding: 3%;
+  }
+  .addition-text,.services-option{
+    font-size: 18px;
+  }
+  .addition-title, .service-title, .plan-title{
+    font-size: 2rem;
+  }
+  .service-sub-title{
+    font-size: 1.5rem;
+  }
+  .services-option .check {
+    font-size: 12px;
+}
+   .plans{
+    padding: 0;
+   }
+   .plans-title{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    color: var(--white);
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2.2rem;
+   }
+   .plans-container{
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    flex-direction: row;
+   }
+   .plan{
+    width: 30%;
+    padding: 1%;
+   }
+   .media-item{
+    font-size: 24px;
+   }
+   
+  .display{
+    display: block;
+  }
+}
+@media screen and (min-width:1150px) {
+    .plans-container{
+        gap: 20px;
+    }
+    .plans-title{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width:1300px) {
+    .plan{
+        width: 25%;
+    }
+}

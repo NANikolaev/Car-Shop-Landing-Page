@@ -2,7 +2,7 @@ import "./Services.css"
 
 let Services = () => {
     return (
-        <section className="service">
+        <section id="services" className="service">
             <h2 className="service-title">Trust Our Top Specialists</h2>
             <div className="services">
                 <div className="services-list">

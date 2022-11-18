@@ -1,5 +1,6 @@
 .hero {
     position: relative;
+    max-height: 600px;
 }
 
 .hero::before {
@@ -27,21 +28,31 @@
 }
 .navbar-nav{
     display: none;
+   
 }
+.nav-item{
+    font-family: Poppins;
+    color: var(--orange-sec);
+    font-weight: 500;
+    padding: 0 5%;
+    transition: ease-in-out 300ms;
+}
+
+
 .btn-apply{
     align-self: flex-start;
     color:var(--white);
     font-size: 12px;
     font-weight: 600;
+    font-family: Poppins;
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
-    background: var(--orangeFFa);
+    background: var(--orange);
     transition: ease-in-out 300ms;
 }
-.btn-apply:hover,
-.btn-apply:focus,
-.btn-apply:active{
+.btn-apply:hover
+{
     transform: scale(1.2);
 }
 .title{
@@ -57,10 +68,9 @@
 
 .title-subtext{
     color: var(--white);
-    width: 80%;
 }
 .logo {
     font-size: 34px;
-    color:var(--orangeFFa);
+    color:var(--orange);
     font-family: Lobster;
 }

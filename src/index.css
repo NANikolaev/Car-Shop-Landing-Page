@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-  --orangeFFa:#ffa346;
+  --orange:#ffa346;
   --orange-sec:#ffcc98;
-  --green00b:#00bf00;
+  --green:#00bf00;
   --white:#ffffffad;
   --black:#443f3f;
+  --gradient:linear-gradient(0deg,var(--orange),var(--orange-sec),var(--white));
 }
 
 *,
@@ -21,6 +22,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%; 
 }
 

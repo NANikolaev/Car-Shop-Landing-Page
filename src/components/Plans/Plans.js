@@ -22,7 +22,7 @@ let plans=[
 
 let Plans=()=>{
     return(
-        <section className="plans">
+        <section id="plans" className="plans">
             <img className="plans-img display" src="/images/marketplace Banner.png"/>
             <h2 className="plans-title">Select a plan and apply online in 5 minutes, with just your driver's license and credit card.</h2>
              <div className="plans-container">

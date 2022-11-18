@@ -7,9 +7,9 @@ let Hero = () => {
             <div className="navbar">
                 <h3 className="logo">Rely Auto ++</h3>
                 <ul className="navbar-nav">
-                    <li><a href="#something">Service</a></li>
-                    <li><a href="#something">Contacts</a></li>
-                    <li><a href="#something">Team</a></li>
+                    <li className="nav-item"><a href="#services">Services</a></li>
+                    <li className="nav-item"><a href="#plans">Plans</a></li>
+                    <li className="nav-item"><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
             <div className="title">
