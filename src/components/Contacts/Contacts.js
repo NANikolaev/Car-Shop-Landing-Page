@@ -17,14 +17,14 @@ let Contacts=()=>{
             <div className="media">
                 <h4 className="media-title">Contact Us</h4>
                 <ul className="contact-list">
-                    <li className="contact-item"><i class="fa-solid fa-phone"></i> 8883-654-23895</li>
-                    <li className="contact-item"><i class="fa-solid fa-envelope"></i> Rely-Auto@gmeil.com</li>
+                    <li className="contact-item"><i className="fa-solid fa-phone"></i> 8883-654-23895</li>
+                    <li className="contact-item"><i className="fa-solid fa-envelope"></i> Rely-Auto@gmeil.com</li>
                 </ul>
                 <ul className="media-list">
-                    <li className="media-item"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                    <li className="media-item"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                    <li className="media-item"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li className="media-item"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li className="media-item"><a href=""><i className="fa-brands fa-facebook"></i></a></li>
+                    <li className="media-item"><a href=""><i className="fa-brands fa-twitter"></i></a></li>
+                    <li className="media-item"><a href=""><i className="fa-brands fa-linkedin"></i></a></li>
+                    <li className="media-item"><a href=""><i className="fa-brands fa-square-instagram"></i></a></li>
                 </ul>
             </div>
         </section>

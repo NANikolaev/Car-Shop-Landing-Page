@@ -33,7 +33,6 @@
     }
 
 }
-
 @media screen and (min-width:700px) {
     .addition {
         flex-direction: row;
@@ -61,7 +60,6 @@
     }
 
 }
-
 @media screen and (min-width:850px) {
     h1 {
         font-size: 3rem;
@@ -151,6 +149,7 @@
   }
 }
 @media screen and (min-width:1150px) {
+  
     .plans-container{
         gap: 20px;
     }
