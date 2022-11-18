@@ -16,4 +16,4 @@
 <img 
 src="./public/images/preview.png" 
 alt="preview"
-style="margin: 0 auto; max-width: 800px">
+style="margin: 0 auto; max-width: 1000px">
